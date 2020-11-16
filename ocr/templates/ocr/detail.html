@@ -1,0 +1,26 @@
+
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<p>
+    Upload Image for OCR
+</p>
+
+<form action="{% url 'ocr:upload_image' %}" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+{#{% for choice in question.choice_set.all %}#}
+{#    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">#}
+{#    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>#}
+{#{% endfor %}#}
+ <input type="file" name="myfile">
+<input type="submit" value="Upload">
+</form>
+
+<p>
+    Enter uuid for retrieve cropped image with text.
+</p>
+<form action="{% url 'ocr:get_crop_and_ocr' %}" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+    <input type="text" name="uuid">
+    <input type="submit" value="Submit">
+</form>

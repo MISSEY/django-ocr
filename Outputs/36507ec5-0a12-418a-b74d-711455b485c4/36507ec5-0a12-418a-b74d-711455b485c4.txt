@@ -1,0 +1,46 @@
+* * Händlerhbeleg * *
+Restaurant Gezelten
+La Amarone
+Betriebsgesellschaft mbH
+Am Eversburger Bahnhof 2
+49090 Osnabrück
+
+Datum: 16.10.2020
+Uhrzeit: 22:15:29 Uhr
+Beleg-Nr. 1274
+Trace-Nr. 001920
+
+Bezahlung
+Kontaktlos
+VISA
+
+Nr.
+49063868C5984340 6:51
+gültig bis 06/23
+VU-Nr. 145634136
+Genehmigungs-Nr. 146935
+Terminal-ID 79905462
+
+Pos-Info 00 075 00
+AS-Zeit 16.10. 22:15 Uhr
+
+EMV-Daten 0000000000////
+////3703DF0F/80
+
+AS-Proc-Code = 00 075 00
+Capt.-Ref.= 0092
+AID59: 002864
+
+Betrag EUR 180,00
+
+Zahlung erfolgt
+Bitte Beleg aufbewahfen
+
+u Pa
+„ ; /
+“ iA) &
+
+Unterschrift Kunde
+
+ 
+
