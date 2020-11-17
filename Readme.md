@@ -9,9 +9,19 @@
 		* Activate the conda environment using `conda activate`
 		* Install packages in `environment.yml` using pip 
 	2.  After installing anaconda, import the evironment "reciept_project" directly from the environment.yml using `conda env create -f environment.yml` command
-3.  Activate the corresponding environment
-4.  Famalirise yourself from Django structure using [Tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
-5. Run `python manage.py runserver` from OCR> web_ocr to run the server
+3. Install below packages 
+
+    `apt-get update && apt-get install -y --no-install-recommends \
+      ghostscript \
+      liblept5 \
+      libsm6 libxext6 libxrender-dev \
+      tesseract-ocr \
+      libgl1-mesa-glx \
+      libglib2.0-0`
+4.  Activate the corresponding environment
+5.  Famalirise yourself from Django structure using [Tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
+6. Run `python manage.py runserver` from OCR> web_ocr to run the server
+
 
 ## Responsible APIs
 
