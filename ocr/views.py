@@ -13,8 +13,7 @@ def index(request):
 
 
 def load_image(filename):
-    #img = cv2.imread(str(os.path.join(settings.BASE_DIR,'images')) + filename)
-    img = None
+    img = cv2.imread(str(os.path.join(settings.BASE_DIR,'images')) + filename)
     return img
 
 def delete_image(filename):
