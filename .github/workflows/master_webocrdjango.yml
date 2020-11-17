@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'webocrdjango'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8a9f6b0e45cb44a29f3f7952a22529fc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_10e6efe2830f42e9a78965d15e6c5132 }}
